@@ -226,6 +226,11 @@ table {
 
 .year-company{
   display: grid;
-  grid-template-columns: 1fr 5fr;
-  
+  grid-template-columns: 1fr 5fr; 
 }
+
+.b2{
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
