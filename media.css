@@ -12,11 +12,18 @@
     .socialLine{
         display: none;
     }
+     .button2{
+        display: none;
+    }
 }
 @media screen and (max-width: 800px) {
      .mainContainer{
         display: flex;
         flex-direction: column;
+    }
+    
+     .button1{
+        display: none;
     }
 
     .leftSide{
