@@ -189,6 +189,19 @@ table {
   color: rgb(86, 82, 82);
 }
 
+.button1, .button2{
+      background-color: rgb(236, 163, 85);
+      border: none;
+      color: rgb(239, 234, 234);
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: inline-block;
+      font-weight: 600;
+      font-size: 16px;
+  }
+
 .education span{
   color: rgb(130, 123, 123);
   font-size: 0.9em;
