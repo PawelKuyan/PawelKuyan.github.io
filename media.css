@@ -1,0 +1,78 @@
+@media screen and (max-width: 1100px) {
+    .mainContainer {
+        max-width: 800px;
+    }
+    .year-company{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .socialLine{
+        display: none;
+    }
+}
+@media screen and (max-width: 800px) {
+     .mainContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftSide{
+        border-right: 0;
+        padding-right: 0;
+      }
+
+    .education{
+        border-bottom: 2px solid rgb(86, 82, 82);
+    }
+
+    .year-company{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #social{
+        display: none;
+    }
+
+    .secondContainer, .thirdContainer, .headerContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name{
+        text-align: center;   
+
+    }
+
+    .name span{
+        font-size: 0.6em;
+    }
+
+    .rightSide{
+        padding-left: 0px;
+      }
+
+
+    .socialLine{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: rgb(86, 82, 82);
+    }
+
+    .socialLine a, .socialLine i{
+    color: rgb(236, 163, 85);
+    }
+
+    .socialLine a, .socialLine i:hover{
+        transform: scale(2.1);
+
+    }
+}   
+
+
