@@ -234,3 +234,29 @@ table {
     margin-left: auto;
     margin-right: auto;
   }
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .button1,
+  .button2,
+  .socialLine {
+    display: none !important;
+  }
+
+  a::after {
+    content: ""; /* убираем вывод ссылок в тексте */
+  }
+
+  .mainContainer {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  @page {
+    margin: 0.5in;
+  }
