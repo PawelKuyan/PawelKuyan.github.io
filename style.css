@@ -240,23 +240,27 @@ table {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
     font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px; /* уменьшение размера шрифта */
+  }
+
+  .mainContainer {
+    margin: 0;
+    padding: 0;
+    zoom: 0.85; /* уменьшение масштаба для вмещения в 1 страницу */
   }
 
   .button1,
   .button2,
   .socialLine {
-    display: none !important;
+    display: none !important; /* скрываем кнопки и футер */
   }
 
   a::after {
-    content: ""; /* убираем вывод ссылок в тексте */
-  }
-
-  .mainContainer {
-    box-shadow: none;
-    margin: 0;
+    content: ""; /* отключает отображение URL после ссылок */
   }
 
   @page {
     margin: 0.5in;
+    size: A4 portrait;
   }
+}
